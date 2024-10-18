@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px; /* Some padding */
+    text-align: center; /* Centered text */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items in a line */
+    margin: 0 15px; /* Spacing between items */
+}
+
+nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    padding: 20px; /* Padding around main content */
+}
+
+section {
+    margin-bottom: 20px; /* Spacing between sections */
+    padding: 10px; /* Padding within sections */
+    border: 1px solid #ccc; /* Light border for sections */
+    border-radius: 5px; /* Rounded corners */
+}
+
+footer {
+    text-align: center; /* Centered text in footer */
+    padding: 10px; /* Padding for footer */
+    background-color: #f1f1f1; /* Light grey background */
+    position: relative; /* For proper layout */
+    bottom: 0; /* Stick footer at the bottom */
+    width: 100%; /* Full width */
+}
